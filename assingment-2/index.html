@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student info</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Student Information</h1>
+    <table border="1" align="center">
+        <tr>
+            <td>
+             <label for="Firstname">First Name:</label>
+           </td>
+           <td>
+            <input id="Firstname" type="text" placeholder="Firstname" required>
+           </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lastname">Last Name:</label>
+            </td>
+            <td>
+                <input id="lastname" type="text" placeholder="lastname" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+            </td>
+            <td>
+                <input id="email" type="email" placeholder="xyz@gmail.com" required>
+            </td>
+        </tr>
+     
+        <tr>
+            <td>
+                <label for="address">Address:</label>
+            </td>
+            <td>
+                <textarea id="address" placeholder="please type address here..."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">Date of Birth:</label>
+            </td>
+            <td>
+                <input id="dob" type="date" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="addinfo">Additional Information:</label>
+            </td>
+            <td>
+                <input id="addinfo" type="file">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button id="reset">Reset</button>
+                <button id="submit">Submit</button>
+
+            </td>
+            
+        </tr>
+        
+    </table>
+</body>
+</html>
